@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 :root{
     --blue:#24ebf9;
 }   
@@ -18,13 +18,13 @@
 }
 
 html{
-    font-size: 50%;
+    font-size: 55%;
     overflow-x: hidden;
 
 }
 
 html::-webkit-scrollbar{
-    width:1.4rem;
+    width:1.5rem;
 }
 
 html::-webkit-scrollbar-track{
@@ -65,7 +65,7 @@ header .usuario img{
     width:17rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border:.7rem solid var(--blue);
 }
 
@@ -74,7 +74,7 @@ header .usuario .nombre{
     color:#fff;
 }
 
-header .usuario .edad{
+header .usuario .profesión{
     font-size: 3.5rem;
     color:#fff;
 }
@@ -90,7 +90,6 @@ header .menu ul{
     padding:1rem 3rem;
 }
 
-
 header .menu ul li a{
     display: block;
     padding:1rem;
@@ -104,27 +103,51 @@ header .menu ul li a{
 header .menu ul li a:hover{
     background:var(--blue);
 }
-/* comienzo Sobre mi*/
-.sobremi{
+
+/* comienzo inicio*/
+
+.inicio{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../imagenes/sobremi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.inicio{
     display: flex;
     justify-content: center;
     flex-flow: column;
     padding: 15rem;
 }
 
-.sobremi h3{
-    font-size: 2.5rem;
+.inicio h3{
+    font-size: 3rem;
     color:#24ebf9;
 }
 
 
-.sobremi p{
-    font-size:2rem;
+.inicio p{
+    font-size:2.5rem;
     color:#eee;
     padding:1rem 0;
 }
 
 /* comienzo educación*/
+.educación{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../imagenes/educación.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 .educación{
     display: flex;
     justify-content: center;
@@ -133,28 +156,39 @@ header .menu ul li a:hover{
 }
 
 .educación h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#24ebf9;
 }
 
 .educación span{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#24ebf9;
 }
 
 .educación h3{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#fff;
 }
 
 
 .educación p{
-    font-size:2rem;
+    font-size:2.5rem;
     color:#eee;
     padding:1rem 0;
 }
 
 /* comienzo experiencia laboral*/
+.experiencialaboral{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../imagenes/laboral.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 .experiencialaboral{
     display: flex;
@@ -164,23 +198,23 @@ header .menu ul li a:hover{
 }
 
 .experiencialaboral h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#24ebf9;
 }
 
 .experiencialaboral span{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#24ebf9;
 }
 
 .experiencialaboral h3{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#fff;
 }
 
 
 .experiencialaboral p{
-    font-size:2rem;
+    font-size:2.5rem;
     color:#eee;
     padding:1rem 0;
 }
@@ -213,6 +247,17 @@ header .menu ul li a:hover{
   }
 
   /* Habilidades */
+  .habilidades{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../imagenes/habilidades.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
   .habilidades{
     display: flex;
@@ -222,17 +267,27 @@ header .menu ul li a:hover{
 }
 
 .habilidades h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#24ebf9;
 }
 
 .habilidades ul{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#fff;
 }
 
 /* contacto */
-
+.contactos{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../imagenes/contactos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 .contactos{
     display: flex;
     justify-content: center;
@@ -241,6 +296,6 @@ header .menu ul li a:hover{
 }
 
 .contactos h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#24ebf9;
 }

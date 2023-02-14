@@ -1,3 +1,5 @@
+// boton ver mas o menos
+
 let vermás_btn = document.getElementById('vermás_btn');
 let ocultartexto = document.getElementById('ocultartexto');
 
