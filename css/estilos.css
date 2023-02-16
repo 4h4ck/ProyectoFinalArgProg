@@ -18,7 +18,7 @@
 }
 
 html{
-    font-size: 55%;
+    font-size: 60%;
     overflow-x: hidden;
 
 }
@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb{
 body{
     background:#111;
     overflow-x: hidden;
-    padding-left: 35rem;
+    padding-left: 20rem;
 }
 
 section{
@@ -51,7 +51,7 @@ header{
     top:0; left:0;
     z-index: 1000;
     height:100%;
-    width:35rem;
+    width:25rem;
     background:#1a1a1a;
     display: flex;
     align-items: center;
@@ -70,12 +70,12 @@ header .usuario img{
 }
 
 header .usuario .nombre{
-    font-size: 4rem;
+    font-size: 3rem;
     color:#fff;
 }
 
 header .usuario .profesión{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color:#fff;
 }
 
@@ -87,7 +87,7 @@ header .menu{
 
 header .menu ul{
     list-style: none;
-    padding:1rem 3rem;
+    padding:1rem 2.5rem;
 }
 
 header .menu ul li a{
@@ -96,7 +96,7 @@ header .menu ul li a{
     margin:1.5rem 0;
     background:#333;
     color:#fff;
-    font-size: 2.5rem;
+    font-size: 2rem;
     border-radius: 5rem;
 }
 
@@ -125,13 +125,13 @@ header .menu ul li a:hover{
 }
 
 .inicio h3{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#24ebf9;
 }
 
 
 .inicio p{
-    font-size:2.5rem;
+    font-size:2rem;
     color:#eee;
     padding:1rem 0;
 }
@@ -156,23 +156,23 @@ header .menu ul li a:hover{
 }
 
 .educación h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#24ebf9;
 }
 
 .educación span{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#24ebf9;
 }
 
 .educación h3{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#fff;
 }
 
 
 .educación p{
-    font-size:2.5rem;
+    font-size:2rem;
     color:#eee;
     padding:1rem 0;
 }
@@ -198,46 +198,38 @@ header .menu ul li a:hover{
 }
 
 .experiencialaboral h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#24ebf9;
 }
 
 .experiencialaboral span{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#24ebf9;
 }
 
 .experiencialaboral h3{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#fff;
 }
 
 
 .experiencialaboral p{
-    font-size:2.5rem;
+    font-size:2rem;
     color:#eee;
     padding:1rem 0;
 }
 
 .vermás_btn {
-    background-color: #4caf50;
+    background-color: #24ebf9;
     border: none;
     border-radius: 40px;
-    color: white;
+    color: black;
     padding: 15px 32px;
     font-size: 1.2em;
-    box-shadow: 0px 0px 10px 0px #4caf50;
+    box-shadow: 0px 0px 10px 0px #24ebf9;
     cursor: pointer;
   }
-  
-  .vermás_btn:hover {
-    box-shadow: none;
-    background-color: black;
-    color: #fff;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
-  }
-  
-   
+     
   .ocultartexto {
     display: none;
   }
@@ -267,12 +259,12 @@ header .menu ul li a:hover{
 }
 
 .habilidades h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#24ebf9;
 }
 
 .habilidades ul{
-    font-size: 3rem;
+    font-size: 2rem;
     color:#fff;
 }
 
@@ -291,11 +283,11 @@ header .menu ul li a:hover{
 .contactos{
     display: flex;
     justify-content: center;
-    flex-flow: column;
+    flex-flow: column wrap-reverse;
     padding: 15rem;
 }
 
 .contactos h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#24ebf9;
 }
